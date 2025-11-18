@@ -2,6 +2,11 @@
 
 > Sistema de gerenciamento de estacionamento desenvolvido com foco em Clean Code, SOLID, DRY, KISS e Object Calisthenics
 
+## Integrantes
+
+- **Nathan Nogueira Carrara** ( 199644 )
+- **Lucas Nunes Alves da Silva** (1996656)
+
 ## Tecnologias
 
 - **PHP 8.3+** (Linguagem)
