@@ -1,0 +1,42 @@
+{
+    "name": "prever03/projeto-4-spr-demo",
+    "description": "Sistema de Controle de Estacionamento Inteligente aplicando SOLID, Clean Code, DRY, KISS e Object Calisthenics",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "parking-system",
+        "solid",
+        "clean-code",
+        "psr-12",
+        "dry",
+        "kiss",
+        "object-calisthenics",
+        "domain-driven-design",
+        "strategy-pattern",
+        "php8"
+    ],
+    "authors": [
+        {
+            "name": "prever03"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    },
+    "require": {
+        "php": ">=8.3.6",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public",
+        "db:create": "cd Infra && sqlite3 busbus.db < busbus.sql"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
